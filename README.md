@@ -13,7 +13,10 @@ Options:
 * auto_resize -- Flag stating that the window resize event should trigger the Drag.Percent.defineScale method. Defaults to true
 
 Events:
+
 * See Mootools.more.Drag
+
+Usage:
 
     var element = document.id('element'),  
         container = document.id('container'),  
