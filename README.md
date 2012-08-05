@@ -15,10 +15,10 @@ Options:
 Events:
 * See Mootools.more.Drag
 
-    var element = document.id('element'),
-        container = document.id('container'),
-        options = {'auto_resize': false},
-        drag = new Drag.Percent(element, container, options);
+    var element = document.id('element'),  
+        container = document.id('container'),  
+        options = {'auto_resize': false},  
+        drag = new Drag.Percent(element, container, options); 
 
 If your element or container will resize, simply call the defineScale method after the resizing.
 
