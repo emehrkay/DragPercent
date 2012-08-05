@@ -86,7 +86,7 @@ Drag.Percent = new Class({
 
 Element.implement({
 
-	makeDraggable: function(parent, options){
+	makePercentDraggable: function(parent, options){
 	    parent = parent || this.getParent();
 		var drag = new Drag.Percent(this, parent, options);
 		this.store('dragger_percent', drag);
